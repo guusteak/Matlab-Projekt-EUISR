@@ -1,0 +1,12 @@
+%dane planowania z klawiatury
+t0= input('podaj czas poczatkowy w sekundach') 
+tk= input('podaj czas koncowy w sekundach')
+p_A= input('wektor pozycji A w m')
+p_B= input('wektor pozycji B w m')
+alpha_A= input('wartosc kata alpha polozenia A w stopniach')
+beta_A= input('wartosc kata beta polozenia A w stopniach')
+gamma_A= input('wartosc kata gamma polozenia A w stopniach')
+alpha_B= input('wartosc kata alpha polozenia B w stopniach')
+beta_B= input('wartosc kata beta polozenia B w stopniach')
+gamma_B= input('wartosc kata gamma polozenia B w stopniach')
+katyobrotu(alpha_B  - alpha_A, beta_B - beta_A, gamma_B - gamma_A)
